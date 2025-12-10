@@ -1,0 +1,41 @@
+name: elderly_care_app
+description: "독거노인 안전 돌봄을 위한 스마트 감지 AI 시스템 - 의료진 모니터링 앱"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.8.1
+  firebase_messaging: ^15.1.6
+
+  # MQTT
+  mqtt_client: ^10.6.0
+
+  # Local Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # State Management
+  provider: ^6.1.2
+
+  # Charts
+  fl_chart: ^0.69.2
+
+  # Utils
+  intl: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
